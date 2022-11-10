@@ -1,0 +1,93 @@
+What is Test Driven Development(TDD)?
+Test Driven Development (TDD) is software development approach in which test cases are developed to specify and validate what the code will do. In simple terms, test cases for each functionality are created and tested first and if the test fails then the new code is written in order to pass the test and making code simple and bug-free.
+
+Test-Driven Development starts with designing and developing tests for every small functionality of an application. TDD framework instructs developers to write new code only if an automated test has failed. This avoids duplication of code. The TDD full form is Test-driven development.
+The simple concept of TDD is to write and correct the failed tests before writing new code (before development). This helps to avoid duplication of code as we write a small amount of code at a time in order to pass tests. (Tests are nothing but requirement conditions that we need to test to fulfill them).
+
+Test-Driven development is a process of developing and running automated test before actual development of the application. Hence, TDD sometimes also called as Test First Development.
+In this tutorial, you will learn more about-
+How to perform TDD Test
+TDD Vs. Traditional Testing
+What is acceptance TDD and Developer TDD
+Scaling TDD via Agile Model Driven Development (AMDD)
+Test Driven Development (TDD) Vs. Agile Model Driven Development (AMDD)
+Example of TDD
+Benefits of TDD
+How to perform TDD Test
+Following steps define how to perform TDD test,
+
+Add a test.
+Run all tests and see if any new test fails.
+Write some code.
+Run tests and Refactor code.
+Repeat.
+
+TDD cycle defines
+Write a test
+Make it run.
+Change the code to make it right i.e. Refactor.
+Repeat process.
+Some clarifications about TDD:
+
+TDD approach is neither about “Testing” nor about “Design”.
+TDD does not mean “write some of the tests, then build a system that passes the tests.
+TDD does not mean “do lots of Testing.”
+TDD Vs. Traditional Testing
+Below is the main difference between Test driven development and traditional testing:
+
+TDD approach is primarily a specification technique. It ensures that your source code is thoroughly tested at confirmatory level.
+
+With traditional testing, a successful test finds one or more defects. It is same as TDD. When a test fails, you have made progress because you know that you need to resolve the problem.
+TDD ensures that your system actually meets requirements defined for it. It helps to build your confidence about your system.
+In TDD more focus is on production code that verifies whether testing will work properly. In traditional testing, more focus is on test case design. Whether the test will show the proper/improper execution of the application in order to fulfill requirements.
+In TDD, you achieve 100% coverage test. Every single line of code is tested, unlike traditional testing.
+The combination of both traditional testing and TDD leads to the importance of testing the system rather than perfection of the system.
+In Agile Modeling (AM), you should “test with a purpose”. You should know why you are testing something and what level its need to be tested.
+
+What is acceptance TDD and Developer TDD
+There are two levels of TDD
+
+Acceptance TDD (ATDD): With ATDD you write a single acceptance test. This test fulfills the requirement of the specification or satisfies the behavior of the system. After that write just enough production/functionality code to fulfill that acceptance test. Acceptance test focuses on the overall behavior of the system. ATDD also was known as Behavioral Driven Development (BDD).
+Developer TDD: With Developer TDD you write single developer test i.e. unit test and then just enough production code to fulfill that test. The unit test focuses on every small functionality of the system. Developer TDD is simply called as TDD.The main goal of ATDD and TDD is to specify detailed, executable requirements for your solution on a just in time (JIT) basis. JIT means taking only those requirements in consideration that are needed in the system. So increase efficiency.
+
+
+Scaling TDD via Agile Model Driven Development (AMDD)
+TDD is very good at detailed specification and validation. It fails at thinking through bigger issues such as overall design, use of the system, or UI. AMDD addresses the Agile scaling issues that TDD does not.
+
+Thus AMDD used for bigger issues.
+
+In Model-driven Development (MDD), extensive models are created before the source code is written. Which in turn have an agile approach?
+
+In above figure, each box represents a development activity.
+
+Envisioning is one of the TDD process of predicting/imagining tests which will be performed during the first week of the project. The main goal of envisioning is to identify the scope of the system and architecture of the system. High-level requirements and architecture modeling is done for successful envisioning.
+
+It is the process where not a detailed specification of software/system is done but exploring the requirements of software/system which defines the overall strategy of the project.
+
+Iteration 0: Envisioning
+There are two main sub-activates.
+
+Initial requirements envisioning.It may take several days to identify high-level requirements and scope of the system. The main focus is to explore usage model, Initial domain model, and user interface model (UI).
+Initial Architectural envisioning. It also takes several days to identify architecture of the system. It allows setting technical directions for the project. The main focus is to explore technology diagrams, User Interface (UI) flow, domain models, and Change cases.
+Iteration modeling
+Here team must plan the work that will be done for each iteration.
+
+Agile process is used for each iteration, i.e. during each iteration, new work item will be added with priority.
+First higher prioritized work will be taken into consideration. Work items added may be reprioritized or removed from items stack any time.
+The team discusses how they are going to implement each requirement. Modeling is used for this purpose.
+Modeling analysis and design is done for each requirement which is going to implement for that iteration.
+Model storming
+This is also known as Just in time Modeling.
+
+Here modeling session involves a team of 2/3 members who discuss issues on paper or whiteboard.
+One team member will ask another to model with them. This modeling session will take approximately 5 to 10 minutes. Where team members gather together to share whiteboard/paper.
+They explore issues until they don’t find the main cause of the problem. Just in time, if one team member identifies the issue which he/she wants to resolve then he/she will take quick help of other team members.
+Other group members then explore the issue and then everyone continues on as before. It is also called as stand-up modeling or customer QA sessions.
+Test Driven Development (TDD)
+It promotes confirmatory testing of your application code and detailed specification.
+Both acceptance test (detailed requirements) and developer tests (unit test) are inputs for TDD.
+TDD makes the code simpler and clear. It allows the developer to maintain less documentation.
+Reviews
+This is optional. It includes code inspections and model reviews.
+This can be done for each iteration or for the whole project.
+This is a good option to give feedback for the project.
